@@ -1,0 +1,51 @@
+body,
+html {
+  width: 100%;
+}
+.wrapper {
+  max-width: 1350px;
+  box-sizing: border-box;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+header {
+  width: 100%;
+}
+header .top-panel {
+  width: 100%;
+  border-bottom: solid 1px #263238;
+}
+header .top-panel h1 {
+  font-family: Ubuntu;
+  color: #263238;
+}
+header nav {
+  margin-top: 20px;
+  width: 100%;
+  border: solid 1px #263238;
+}
+header nav ul {
+  padding: 0;
+  margin: 0;
+}
+header nav ul li {
+  list-style-type: none;
+  display: inline-block;
+  padding: 15px;
+}
+header nav ul li a {
+  box-sizing: border-box;
+  font-size: 28px;
+  text-decoration: none;
+  color: grey;
+  font-family: "Roboto Black";
+}
+.main-content .main-window {
+  margin: 20px 0;
+  border: solid 1px #263238;
+  display: flex;
+  justify-content: space-between;
+}
+.main-content .main-window .left-side img {
+  width: 300px;
+}
